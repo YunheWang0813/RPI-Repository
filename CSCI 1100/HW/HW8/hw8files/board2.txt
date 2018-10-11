@@ -1,0 +1,5 @@
+pizza|1|50|50|chair|zygirionsim|phone|normal|463|146|32|48
+chair|1|100|20|zygirionsim|phone|normal|pizza
+zygirionsim|1|100|100|phone|normal|pizza|chair
+phone|1|200|20|normal|pizza|chair|zygirionsim|10|10
+normal|1|500|30|pizza|chair|zygirionsim|phone|876|360

@@ -1,0 +1,5 @@
+zygirion|1|600|400|j19zeta|c137|reverseheight|alpha-betrium|781|945|632|40|620|642|594|102
+c137|2|500|500|alpha-betrium|reverseheight|j19zeta|zygirion|498|442|455|255
+reverseheight|1|500|600|j19zeta|alpha-betrium|j19zeta|reverseheight|424|682|385|485|520|762
+j19zeta|2|200|200|c137|alpha-betrium|zygirion|alpha-betrium
+alpha-betrium|1|600|600|c137|j19zeta|reverseheight|zygirion|682|602

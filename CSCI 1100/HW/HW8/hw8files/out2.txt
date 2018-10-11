@@ -1,0 +1,103 @@
+Board file name => board2.txt
+Rick file name => rick2.txt
+Board pizza: Portal location: (50,50), Gravity: 1
+	Obstacles at: [(463, 146), (32, 48)]
+	Portals to: right: chair, up: zygirionsim, left: phone, down: normal
+Board chair: Portal location: (100,20), Gravity: 1
+	Obstacles at: []
+	Portals to: right: zygirionsim, up: phone, left: normal, down: pizza
+Board zygirionsim: Portal location: (100,100), Gravity: 1
+	Obstacles at: []
+	Portals to: right: phone, up: normal, left: pizza, down: chair
+Board phone: Portal location: (200,20), Gravity: 1
+	Obstacles at: [(10, 10)]
+	Portals to: right: normal, up: pizza, left: chair, down: zygirionsim
+Board normal: Portal location: (500,30), Gravity: 1
+	Obstacles at: [(876, 360)]
+	Portals to: right: pizza, up: chair, left: zygirionsim, down: phone
+
+All Ricks
+Time 0: Rick of pizza is in pizza board at (100,100) with speed (40.0,5.0)
+Time 0: Rick of normal is in normal board at (5,10) with speed (30.0,12.0)
+---------------------------------------------------------------------------
+
+Time 9: Rick of pizza crashed into object at (463,146) in pizza board
+	New speed is (-20.0, -5.0)
+
+---------------------------------------------------------------------------
+End of time 9: all free Ricks
+Rick of pizza is in pizza board at (460,145) with speed (-20.0,-5.0)
+Rick of normal is in normal board at (275,118) with speed (30.0,12.0)
+---------------------------------------------------------------------------
+
+---------------------------------------------------------------------------
+End of time 19: all free Ricks
+Rick of pizza is in pizza board at (260,95) with speed (-20.0,-5.0)
+Rick of normal is in normal board at (575,238) with speed (30.0,12.0)
+---------------------------------------------------------------------------
+
+Time 29: Rick of normal crashed into object at (876,360) in normal board
+	New speed is (-15.0, -12.0)
+
+Time 29: Rick of normal in normal board location (875,358) with speed magnitude 19.2 stops 
+
+---------------------------------------------------------------------------
+End of time 29: all free Ricks
+Rick of pizza is in pizza board at (60,45) with speed (-20.0,-5.0)
+---------------------------------------------------------------------------
+
+Time 32: Rick of pizza moved from pizza board to phone board
+	Past location: Rick of pizza is in pizza board at (0,30) with speed (-20.0,-5.0)
+	Current location: Rick of pizza is in phone board at (200,20) with speed (-20.0,-5.0)
+
+Time 36: Rick of pizza moved from phone board to pizza board
+	Past location: Rick of pizza is in phone board at (120,0) with speed (-20.0,-5.0)
+	Current location: Rick of pizza is in pizza board at (50,50) with speed (-20.0,-5.0)
+
+Time 37: Rick of pizza crashed into object at (32,48) in pizza board
+	New speed is (10.0, 5.0)
+
+---------------------------------------------------------------------------
+End of time 39: all free Ricks
+Rick of pizza is in pizza board at (50,55) with speed (10.0,5.0)
+---------------------------------------------------------------------------
+
+---------------------------------------------------------------------------
+End of time 49: all free Ricks
+Rick of pizza is in pizza board at (150,105) with speed (10.0,5.0)
+---------------------------------------------------------------------------
+
+---------------------------------------------------------------------------
+End of time 59: all free Ricks
+Rick of pizza is in pizza board at (250,155) with speed (10.0,5.0)
+---------------------------------------------------------------------------
+
+---------------------------------------------------------------------------
+End of time 69: all free Ricks
+Rick of pizza is in pizza board at (350,205) with speed (10.0,5.0)
+---------------------------------------------------------------------------
+
+---------------------------------------------------------------------------
+End of time 79: all free Ricks
+Rick of pizza is in pizza board at (450,255) with speed (10.0,5.0)
+---------------------------------------------------------------------------
+
+---------------------------------------------------------------------------
+End of time 89: all free Ricks
+Rick of pizza is in pizza board at (550,305) with speed (10.0,5.0)
+---------------------------------------------------------------------------
+
+---------------------------------------------------------------------------
+End of time 99: all free Ricks
+Rick of pizza is in pizza board at (650,355) with speed (10.0,5.0)
+---------------------------------------------------------------------------
+
+---------------------------------------------------------------------------
+Time 100: Simulation ended
+
+The following Ricks are still alive:
+	Rick of pizza is in pizza board at (660,360) with speed (10.0,5.0)
+
+The following Ricks were caught by Transdimensional Council of Ricks:
+	Rick of normal
+---------------------------------------------------------------------------

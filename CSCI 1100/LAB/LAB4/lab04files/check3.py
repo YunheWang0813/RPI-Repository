@@ -1,0 +1,23 @@
+from PIL import Image
+import panoramio as pan
+import check2_helper
+im=Image.new('RGB',(512,512),'white')
+X=raw_input('Address ==> ')
+urls=pan.getPhotos(X,4)
+im1=pan.openphoto(urls[0])
+im1=check2_helper.make_square(im1)
+im1=im1.resize((256,256))
+im2=pan.openphoto(urls[1])
+im2=check2_helper.make_square(im2)
+im2=im2.resize((256,256))
+im3=pan.openphoto(urls[2])
+im3=check2_helper.make_square(im3)
+im3=im3.resize((256,256))
+im4=pan.openphoto(urls[3])
+im4=check2_helper.make_square(im4)
+im4=im4.resize((256,256))
+im.paste(im1,(0,0))
+im.paste(im2,(0,256))
+im.paste(im3,(256,0))
+im.paste(im4,(256,256))
+im.show()

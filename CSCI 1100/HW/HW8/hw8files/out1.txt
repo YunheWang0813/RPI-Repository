@@ -1,0 +1,144 @@
+Board file name => board1.txt
+Rick file name => rick1.txt
+Board pizza: Portal location: (50,50), Gravity: 1
+	Obstacles at: []
+	Portals to: right: chair, up: zygirionsim, left: phone, down: normal
+Board chair: Portal location: (100,20), Gravity: 1
+	Obstacles at: []
+	Portals to: right: zygirionsim, up: phone, left: normal, down: pizza
+Board zygirionsim: Portal location: (100,100), Gravity: 1
+	Obstacles at: []
+	Portals to: right: phone, up: normal, left: pizza, down: chair
+Board phone: Portal location: (200,20), Gravity: 1
+	Obstacles at: []
+	Portals to: right: normal, up: pizza, left: chair, down: zygirionsim
+Board normal: Portal location: (500,30), Gravity: 1
+	Obstacles at: []
+	Portals to: right: pizza, up: chair, left: zygirionsim, down: phone
+
+All Ricks
+Time 0: Rick of pizza is in pizza board at (100,100) with speed (40.0,5.0)
+Time 0: Rick of zygirionsim is in zygirionsim board at (100,20) with speed (30.0,8.0)
+Time 0: Rick of normal is in normal board at (5,10) with speed (30.0,12.0)
+---------------------------------------------------------------------------
+
+---------------------------------------------------------------------------
+End of time 9: all free Ricks
+Rick of pizza is in pizza board at (460,145) with speed (40.0,5.0)
+Rick of zygirionsim is in zygirionsim board at (370,92) with speed (30.0,8.0)
+Rick of normal is in normal board at (275,118) with speed (30.0,12.0)
+---------------------------------------------------------------------------
+
+---------------------------------------------------------------------------
+End of time 19: all free Ricks
+Rick of pizza is in pizza board at (860,195) with speed (40.0,5.0)
+Rick of zygirionsim is in zygirionsim board at (670,172) with speed (30.0,8.0)
+Rick of normal is in normal board at (575,238) with speed (30.0,12.0)
+---------------------------------------------------------------------------
+
+Time 23: Rick of pizza moved from pizza board to chair board
+	Past location: Rick of pizza is in pizza board at (1020,215) with speed (40.0,5.0)
+	Current location: Rick of pizza is in chair board at (100,20) with speed (40.0,5.0)
+
+---------------------------------------------------------------------------
+End of time 29: all free Ricks
+Rick of pizza is in chair board at (340,50) with speed (40.0,5.0)
+Rick of zygirionsim is in zygirionsim board at (970,252) with speed (30.0,8.0)
+Rick of normal is in normal board at (875,358) with speed (30.0,12.0)
+---------------------------------------------------------------------------
+
+Time 30: Rick of zygirionsim moved from zygirionsim board to phone board
+	Past location: Rick of zygirionsim is in zygirionsim board at (1000,260) with speed (30.0,8.0)
+	Current location: Rick of zygirionsim is in phone board at (200,20) with speed (30.0,8.0)
+
+Time 33: Rick of normal moved from normal board to pizza board
+	Past location: Rick of normal is in normal board at (995,406) with speed (30.0,12.0)
+	Current location: Rick of normal is in pizza board at (50,50) with speed (30.0,12.0)
+
+---------------------------------------------------------------------------
+End of time 39: all free Ricks
+Rick of pizza is in chair board at (740,100) with speed (40.0,5.0)
+Rick of zygirionsim is in phone board at (470,92) with speed (30.0,8.0)
+Rick of normal is in pizza board at (230,122) with speed (30.0,12.0)
+---------------------------------------------------------------------------
+
+Time 46: Rick of pizza moved from chair board to zygirionsim board
+	Past location: Rick of pizza is in chair board at (1020,135) with speed (40.0,5.0)
+	Current location: Rick of pizza is in zygirionsim board at (100,100) with speed (40.0,5.0)
+
+---------------------------------------------------------------------------
+End of time 49: all free Ricks
+Rick of pizza is in zygirionsim board at (220,115) with speed (40.0,5.0)
+Rick of zygirionsim is in phone board at (770,172) with speed (30.0,8.0)
+Rick of normal is in pizza board at (530,242) with speed (30.0,12.0)
+---------------------------------------------------------------------------
+
+Time 57: Rick of zygirionsim moved from phone board to normal board
+	Past location: Rick of zygirionsim is in phone board at (1010,236) with speed (30.0,8.0)
+	Current location: Rick of zygirionsim is in normal board at (500,30) with speed (30.0,8.0)
+
+---------------------------------------------------------------------------
+End of time 59: all free Ricks
+Rick of pizza is in zygirionsim board at (620,165) with speed (40.0,5.0)
+Rick of zygirionsim is in normal board at (560,46) with speed (30.0,8.0)
+Rick of normal is in pizza board at (830,362) with speed (30.0,12.0)
+---------------------------------------------------------------------------
+
+Time 65: Rick of normal moved from pizza board to chair board
+	Past location: Rick of normal is in pizza board at (1010,434) with speed (30.0,12.0)
+	Current location: Rick of normal is in chair board at (100,20) with speed (30.0,12.0)
+
+Time 69: Rick of pizza moved from zygirionsim board to phone board
+	Past location: Rick of pizza is in zygirionsim board at (1020,215) with speed (40.0,5.0)
+	Current location: Rick of pizza is in phone board at (200,20) with speed (40.0,5.0)
+
+---------------------------------------------------------------------------
+End of time 69: all free Ricks
+Rick of pizza is in phone board at (200,20) with speed (40.0,5.0)
+Rick of zygirionsim is in normal board at (860,126) with speed (30.0,8.0)
+Rick of normal is in chair board at (220,68) with speed (30.0,12.0)
+---------------------------------------------------------------------------
+
+Time 74: Rick of zygirionsim moved from normal board to pizza board
+	Past location: Rick of zygirionsim is in normal board at (1010,166) with speed (30.0,8.0)
+	Current location: Rick of zygirionsim is in pizza board at (50,50) with speed (30.0,8.0)
+
+---------------------------------------------------------------------------
+End of time 79: all free Ricks
+Rick of pizza is in phone board at (600,70) with speed (40.0,5.0)
+Rick of zygirionsim is in pizza board at (200,90) with speed (30.0,8.0)
+Rick of normal is in chair board at (520,188) with speed (30.0,12.0)
+---------------------------------------------------------------------------
+
+Time 89: Rick of pizza moved from phone board to normal board
+	Past location: Rick of pizza is in phone board at (1000,120) with speed (40.0,5.0)
+	Current location: Rick of pizza is in normal board at (500,30) with speed (40.0,5.0)
+
+---------------------------------------------------------------------------
+End of time 89: all free Ricks
+Rick of pizza is in normal board at (500,30) with speed (40.0,5.0)
+Rick of zygirionsim is in pizza board at (500,170) with speed (30.0,8.0)
+Rick of normal is in chair board at (820,308) with speed (30.0,12.0)
+---------------------------------------------------------------------------
+
+Time 95: Rick of normal moved from chair board to zygirionsim board
+	Past location: Rick of normal is in chair board at (1000,380) with speed (30.0,12.0)
+	Current location: Rick of normal is in zygirionsim board at (100,100) with speed (30.0,12.0)
+
+---------------------------------------------------------------------------
+End of time 99: all free Ricks
+Rick of pizza is in normal board at (900,80) with speed (40.0,5.0)
+Rick of zygirionsim is in pizza board at (800,250) with speed (30.0,8.0)
+Rick of normal is in zygirionsim board at (220,148) with speed (30.0,12.0)
+---------------------------------------------------------------------------
+
+---------------------------------------------------------------------------
+Time 100: Simulation ended
+
+The following Ricks are still alive:
+	Rick of pizza is in normal board at (940,85) with speed (40.0,5.0)
+	Rick of zygirionsim is in pizza board at (830,258) with speed (30.0,8.0)
+	Rick of normal is in zygirionsim board at (250,160) with speed (30.0,12.0)
+
+No Ricks were caught by Transdimensional Council of Ricks
+---------------------------------------------------------------------------

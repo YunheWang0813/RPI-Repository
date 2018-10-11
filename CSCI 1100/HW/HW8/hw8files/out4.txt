@@ -1,0 +1,106 @@
+Board file name => board4.txt
+Rick file name => rick4.txt
+Board pizza: Portal location: (500,500), Gravity: 1
+	Obstacles at: [(262, 444)]
+	Portals to: right: furniture, up: chair, left: pizza, down: chair
+Board chair: Portal location: (200,200), Gravity: 2
+	Obstacles at: []
+	Portals to: right: furniture, up: chair, left: pizza, down: furniture
+Board furniture: Portal location: (100,100), Gravity: 3
+	Obstacles at: [(130, 115)]
+	Portals to: right: pizza, up: chair, left: furniture, down: pizza
+
+All Ricks
+Time 0: Rick of pizza is in pizza board at (100,100) with speed (-40.0,-10.0)
+Time 0: Rick of chair is in chair board at (800,800) with speed (10.0,100.0)
+Time 0: Rick of furniture is in furniture board at (10,440) with speed (30.0,-30.0)
+---------------------------------------------------------------------------
+
+Time 3: Rick of pizza moved from pizza board to pizza board
+	Past location: Rick of pizza is in pizza board at (-20,70) with speed (-40.0,-10.0)
+	Current location: Rick of pizza is in pizza board at (500,500) with speed (-40.0,-10.0)
+
+Time 4: Rick of chair moved from chair board to furniture board
+	Past location: Rick of chair is in chair board at (820,1000) with speed (10.0,100.0)
+	Current location: Rick of chair is in furniture board at (100,100) with speed (10.0,100.0)
+
+Time 9: Rick of pizza crashed into object at (262,444) in pizza board
+	New speed is (20.0, 10.0)
+
+Time 9: Rick of pizza in pizza board location (260,440) with speed magnitude 22.4 stops 
+
+---------------------------------------------------------------------------
+End of time 9: all free Ricks
+Rick of chair is in furniture board at (115,265) with speed (10.0,100.0)
+Rick of furniture is in furniture board at (100,350) with speed (30.0,-30.0)
+---------------------------------------------------------------------------
+
+Time 11: Rick of chair collided with Rick of furniture in furniture board
+	Rick of chair is in chair board at (200,200) with speed (5.0,50.0)
+	Rick of furniture is in furniture board at (100,100) with speed (15.0,-15.0)
+
+Time 11: Rick of furniture in furniture board location (100,100) with speed magnitude 21.2 stops 
+
+---------------------------------------------------------------------------
+End of time 19: all free Ricks
+Rick of chair is in chair board at (216,400) with speed (5.0,50.0)
+---------------------------------------------------------------------------
+
+---------------------------------------------------------------------------
+End of time 29: all free Ricks
+Rick of chair is in chair board at (236,650) with speed (5.0,50.0)
+---------------------------------------------------------------------------
+
+---------------------------------------------------------------------------
+End of time 39: all free Ricks
+Rick of chair is in chair board at (256,900) with speed (5.0,50.0)
+---------------------------------------------------------------------------
+
+Time 43: Rick of chair moved from chair board to furniture board
+	Past location: Rick of chair is in chair board at (264,1000) with speed (5.0,50.0)
+	Current location: Rick of chair is in furniture board at (100,100) with speed (5.0,50.0)
+
+---------------------------------------------------------------------------
+End of time 49: all free Ricks
+Rick of chair is in furniture board at (106,196) with speed (5.0,50.0)
+---------------------------------------------------------------------------
+
+---------------------------------------------------------------------------
+End of time 59: all free Ricks
+Rick of chair is in furniture board at (116,356) with speed (5.0,50.0)
+---------------------------------------------------------------------------
+
+---------------------------------------------------------------------------
+End of time 69: all free Ricks
+Rick of chair is in furniture board at (126,516) with speed (5.0,50.0)
+---------------------------------------------------------------------------
+
+---------------------------------------------------------------------------
+End of time 79: all free Ricks
+Rick of chair is in furniture board at (136,676) with speed (5.0,50.0)
+---------------------------------------------------------------------------
+
+---------------------------------------------------------------------------
+End of time 89: all free Ricks
+Rick of chair is in furniture board at (146,836) with speed (5.0,50.0)
+---------------------------------------------------------------------------
+
+Time 99: Rick of chair moved from furniture board to pizza board
+	Past location: Rick of chair is in furniture board at (156,996) with speed (5.0,50.0)
+	Current location: Rick of chair is in pizza board at (500,500) with speed (5.0,50.0)
+
+---------------------------------------------------------------------------
+End of time 99: all free Ricks
+Rick of chair is in pizza board at (500,500) with speed (5.0,50.0)
+---------------------------------------------------------------------------
+
+---------------------------------------------------------------------------
+Time 100: Simulation ended
+
+The following Ricks are still alive:
+	Rick of chair is in pizza board at (505,550) with speed (5.0,50.0)
+
+The following Ricks were caught by Transdimensional Council of Ricks:
+	Rick of pizza
+	Rick of furniture
+---------------------------------------------------------------------------

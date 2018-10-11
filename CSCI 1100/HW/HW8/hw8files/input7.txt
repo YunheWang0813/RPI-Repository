@@ -1,0 +1,2 @@
+board7.txt
+rick7.txt

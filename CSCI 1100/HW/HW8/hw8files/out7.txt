@@ -1,0 +1,83 @@
+Board file name => board7.txt
+Rick file name => rick7.txt
+Board zygirion: Portal location: (600,400), Gravity: 1
+	Obstacles at: [(781, 945), (632, 40), (620, 642), (594, 102)]
+	Portals to: right: j19zeta, up: c137, left: reverseheight, down: alpha-betrium
+Board c137: Portal location: (500,500), Gravity: 2
+	Obstacles at: [(498, 442), (455, 255)]
+	Portals to: right: alpha-betrium, up: reverseheight, left: j19zeta, down: zygirion
+Board reverseheight: Portal location: (500,600), Gravity: 1
+	Obstacles at: [(424, 682), (385, 485), (520, 762)]
+	Portals to: right: j19zeta, up: alpha-betrium, left: j19zeta, down: reverseheight
+Board j19zeta: Portal location: (200,200), Gravity: 2
+	Obstacles at: []
+	Portals to: right: c137, up: alpha-betrium, left: zygirion, down: alpha-betrium
+Board alpha-betrium: Portal location: (600,600), Gravity: 1
+	Obstacles at: [(682, 602)]
+	Portals to: right: c137, up: j19zeta, left: reverseheight, down: zygirion
+
+All Ricks
+Time 0: Rick of zygirion is in zygirion board at (100,600) with speed (20.0,60.0)
+Time 0: Rick of c137 is in c137 board at (50,50) with speed (40.0,20.0)
+Time 0: Rick of reverseheight is in reverseheight board at (800,800) with speed (-20.0,20.0)
+---------------------------------------------------------------------------
+
+Time 1: Rick of zygirion in zygirion board location (120,660) with speed magnitude 63.2 stops 
+
+---------------------------------------------------------------------------
+End of time 9: all free Ricks
+Rick of c137 is in c137 board at (230,140) with speed (40.0,20.0)
+Rick of reverseheight is in reverseheight board at (620,980) with speed (-20.0,20.0)
+---------------------------------------------------------------------------
+
+Time 10: Rick of reverseheight moved from reverseheight board to reverseheight board
+	Past location: Rick of reverseheight is in reverseheight board at (600,1000) with speed (-20.0,20.0)
+	Current location: Rick of reverseheight is in reverseheight board at (500,600) with speed (-20.0,20.0)
+
+Time 14: Rick of reverseheight crashed into object at (424,682) in reverseheight board
+	New speed is (10.0, -20.0)
+
+Time 14: Rick of reverseheight in reverseheight board location (420,680) with speed magnitude 22.4 stops 
+
+---------------------------------------------------------------------------
+End of time 19: all free Ricks
+Rick of c137 is in c137 board at (430,240) with speed (40.0,20.0)
+---------------------------------------------------------------------------
+
+Time 20: Rick of c137 crashed into object at (455,255) in c137 board
+	New speed is (-20.0, -20.0)
+
+---------------------------------------------------------------------------
+End of time 29: all free Ricks
+Rick of c137 is in c137 board at (360,160) with speed (-20.0,-20.0)
+---------------------------------------------------------------------------
+
+---------------------------------------------------------------------------
+End of time 39: all free Ricks
+Rick of c137 is in c137 board at (260,60) with speed (-20.0,-20.0)
+---------------------------------------------------------------------------
+
+Time 45: Rick of c137 moved from c137 board to reverseheight board
+	Past location: Rick of c137 is in c137 board at (200,0) with speed (-20.0,-20.0)
+	Current location: Rick of c137 is in reverseheight board at (500,600) with speed (-20.0,-20.0)
+
+---------------------------------------------------------------------------
+End of time 49: all free Ricks
+Rick of c137 is in reverseheight board at (420,520) with speed (-20.0,-20.0)
+---------------------------------------------------------------------------
+
+Time 51: Rick of c137 crashed into object at (385,485) in reverseheight board
+	New speed is (10.0, 20.0)
+
+Time 51: Rick of c137 in reverseheight board location (380,480) with speed magnitude 22.4 stops 
+
+---------------------------------------------------------------------------
+Time 51: Simulation ended
+
+No Ricks were left alive!
+
+The following Ricks were caught by Transdimensional Council of Ricks:
+	Rick of zygirion
+	Rick of reverseheight
+	Rick of c137
+---------------------------------------------------------------------------

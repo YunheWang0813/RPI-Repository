@@ -1,0 +1,240 @@
+Board file name => board5.txt
+Rick file name => rick5.txt
+Board zygirion: Portal location: (600,400), Gravity: 1
+	Obstacles at: []
+	Portals to: right: j19zeta, up: c137, left: reverseheight, down: alpha-betrium
+Board c137: Portal location: (500,500), Gravity: 1
+	Obstacles at: []
+	Portals to: right: alpha-betrium, up: reverseheight, left: j19zeta, down: zygirion
+Board reverseheight: Portal location: (500,600), Gravity: 1
+	Obstacles at: []
+	Portals to: right: j19zeta, up: alpha-betrium, left: j19zeta, down: reverseheight
+Board j19zeta: Portal location: (200,200), Gravity: 1
+	Obstacles at: []
+	Portals to: right: c137, up: alpha-betrium, left: zygirion, down: alpha-betrium
+Board alpha-betrium: Portal location: (600,600), Gravity: 1
+	Obstacles at: []
+	Portals to: right: c137, up: j19zeta, left: reverseheight, down: zygirion
+
+All Ricks
+Time 0: Rick of zygirion is in zygirion board at (100,600) with speed (20.0,60.0)
+Time 0: Rick of c137 is in c137 board at (50,50) with speed (40.0,0.0)
+Time 0: Rick of reverseheight is in reverseheight board at (800,800) with speed (-20.0,20.0)
+Time 0: Rick of j19zeta is in j19zeta board at (900,800) with speed (0.0,25.0)
+Time 0: Rick of alpha-betrium is in alpha-betrium board at (900,80) with speed (-80.0,40.0)
+---------------------------------------------------------------------------
+
+Time 7: Rick of zygirion moved from zygirion board to alpha-betrium board
+	Past location: Rick of zygirion is in zygirion board at (240,1020) with speed (20.0,60.0)
+	Current location: Rick of zygirion is in alpha-betrium board at (600,600) with speed (20.0,60.0)
+
+Time 8: Rick of j19zeta moved from j19zeta board to alpha-betrium board
+	Past location: Rick of j19zeta is in j19zeta board at (900,1000) with speed (0.0,25.0)
+	Current location: Rick of j19zeta is in alpha-betrium board at (600,600) with speed (0.0,25.0)
+
+---------------------------------------------------------------------------
+End of time 9: all free Ricks
+Rick of zygirion is in alpha-betrium board at (640,720) with speed (20.0,60.0)
+Rick of c137 is in c137 board at (410,50) with speed (40.0,0.0)
+Rick of reverseheight is in reverseheight board at (620,980) with speed (-20.0,20.0)
+Rick of j19zeta is in alpha-betrium board at (600,625) with speed (0.0,25.0)
+Rick of alpha-betrium is in alpha-betrium board at (180,440) with speed (-80.0,40.0)
+---------------------------------------------------------------------------
+
+Time 10: Rick of reverseheight moved from reverseheight board to reverseheight board
+	Past location: Rick of reverseheight is in reverseheight board at (600,1000) with speed (-20.0,20.0)
+	Current location: Rick of reverseheight is in reverseheight board at (500,600) with speed (-20.0,20.0)
+
+Time 12: Rick of alpha-betrium moved from alpha-betrium board to reverseheight board
+	Past location: Rick of alpha-betrium is in alpha-betrium board at (-60,560) with speed (-80.0,40.0)
+	Current location: Rick of alpha-betrium is in reverseheight board at (500,600) with speed (-80.0,40.0)
+
+Time 14: Rick of zygirion moved from alpha-betrium board to zygirion board
+	Past location: Rick of zygirion is in alpha-betrium board at (740,1020) with speed (20.0,60.0)
+	Current location: Rick of zygirion is in zygirion board at (600,400) with speed (20.0,60.0)
+
+Time 19: Rick of alpha-betrium moved from reverseheight board to j19zeta board
+	Past location: Rick of alpha-betrium is in reverseheight board at (-60,880) with speed (-80.0,40.0)
+	Current location: Rick of alpha-betrium is in j19zeta board at (200,200) with speed (-80.0,40.0)
+
+---------------------------------------------------------------------------
+End of time 19: all free Ricks
+Rick of zygirion is in zygirion board at (700,700) with speed (20.0,60.0)
+Rick of c137 is in c137 board at (810,50) with speed (40.0,0.0)
+Rick of reverseheight is in reverseheight board at (320,780) with speed (-20.0,20.0)
+Rick of j19zeta is in alpha-betrium board at (600,875) with speed (0.0,25.0)
+Rick of alpha-betrium is in j19zeta board at (200,200) with speed (-80.0,40.0)
+---------------------------------------------------------------------------
+
+Time 22: Rick of alpha-betrium moved from j19zeta board to zygirion board
+	Past location: Rick of alpha-betrium is in j19zeta board at (-40,320) with speed (-80.0,40.0)
+	Current location: Rick of alpha-betrium is in zygirion board at (600,400) with speed (-80.0,40.0)
+
+Time 24: Rick of zygirion moved from zygirion board to alpha-betrium board
+	Past location: Rick of zygirion is in zygirion board at (800,1000) with speed (20.0,60.0)
+	Current location: Rick of zygirion is in alpha-betrium board at (600,600) with speed (20.0,60.0)
+
+Time 24: Rick of c137 moved from c137 board to alpha-betrium board
+	Past location: Rick of c137 is in c137 board at (1010,50) with speed (40.0,0.0)
+	Current location: Rick of c137 is in alpha-betrium board at (600,600) with speed (40.0,0.0)
+
+Time 24: Rick of j19zeta moved from alpha-betrium board to zygirion board
+	Past location: Rick of j19zeta is in alpha-betrium board at (600,1000) with speed (0.0,25.0)
+	Current location: Rick of j19zeta is in zygirion board at (600,400) with speed (0.0,25.0)
+
+Time 24: Rick of zygirion collided with Rick of c137 in alpha-betrium board
+	Rick of zygirion is in zygirion board at (600,400) with speed (10.0,30.0)
+	Rick of c137 is in c137 board at (500,500) with speed (20.0,0.0)
+
+Time 24: Rick of zygirion collided with Rick of j19zeta in zygirion board
+	Rick of zygirion is in zygirion board at (600,400) with speed (5.0,15.0)
+	Rick of j19zeta is in j19zeta board at (200,200) with speed (0.0,12.5)
+
+---------------------------------------------------------------------------
+End of time 29: all free Ricks
+Rick of zygirion is in zygirion board at (625,475) with speed (5.0,15.0)
+Rick of c137 is in c137 board at (600,500) with speed (20.0,0.0)
+Rick of reverseheight is in reverseheight board at (120,980) with speed (-20.0,20.0)
+Rick of j19zeta is in j19zeta board at (200,260) with speed (0.0,12.5)
+Rick of alpha-betrium is in zygirion board at (40,680) with speed (-80.0,40.0)
+---------------------------------------------------------------------------
+
+Time 30: Rick of reverseheight moved from reverseheight board to reverseheight board
+	Past location: Rick of reverseheight is in reverseheight board at (100,1000) with speed (-20.0,20.0)
+	Current location: Rick of reverseheight is in reverseheight board at (500,600) with speed (-20.0,20.0)
+
+Time 30: Rick of alpha-betrium moved from zygirion board to reverseheight board
+	Past location: Rick of alpha-betrium is in zygirion board at (-40,720) with speed (-80.0,40.0)
+	Current location: Rick of alpha-betrium is in reverseheight board at (500,600) with speed (-80.0,40.0)
+
+Time 30: Rick of reverseheight collided with Rick of alpha-betrium in reverseheight board
+	Rick of reverseheight is in reverseheight board at (500,600) with speed (-10.0,10.0)
+	Rick of alpha-betrium is in alpha-betrium board at (600,600) with speed (-40.0,20.0)
+
+---------------------------------------------------------------------------
+End of time 39: all free Ricks
+Rick of zygirion is in zygirion board at (675,625) with speed (5.0,15.0)
+Rick of c137 is in c137 board at (800,500) with speed (20.0,0.0)
+Rick of reverseheight is in reverseheight board at (410,690) with speed (-10.0,10.0)
+Rick of j19zeta is in j19zeta board at (200,380) with speed (0.0,12.5)
+Rick of alpha-betrium is in alpha-betrium board at (240,780) with speed (-40.0,20.0)
+---------------------------------------------------------------------------
+
+Time 45: Rick of alpha-betrium moved from alpha-betrium board to reverseheight board
+	Past location: Rick of alpha-betrium is in alpha-betrium board at (0,900) with speed (-40.0,20.0)
+	Current location: Rick of alpha-betrium is in reverseheight board at (500,600) with speed (-40.0,20.0)
+
+Time 49: Rick of c137 moved from c137 board to alpha-betrium board
+	Past location: Rick of c137 is in c137 board at (1000,500) with speed (20.0,0.0)
+	Current location: Rick of c137 is in alpha-betrium board at (600,600) with speed (20.0,0.0)
+
+---------------------------------------------------------------------------
+End of time 49: all free Ricks
+Rick of zygirion is in zygirion board at (725,775) with speed (5.0,15.0)
+Rick of c137 is in alpha-betrium board at (600,600) with speed (20.0,0.0)
+Rick of reverseheight is in reverseheight board at (310,790) with speed (-10.0,10.0)
+Rick of j19zeta is in j19zeta board at (200,500) with speed (0.0,12.5)
+Rick of alpha-betrium is in reverseheight board at (340,680) with speed (-40.0,20.0)
+---------------------------------------------------------------------------
+
+Time 58: Rick of alpha-betrium moved from reverseheight board to j19zeta board
+	Past location: Rick of alpha-betrium is in reverseheight board at (-20,860) with speed (-40.0,20.0)
+	Current location: Rick of alpha-betrium is in j19zeta board at (200,200) with speed (-40.0,20.0)
+
+---------------------------------------------------------------------------
+End of time 59: all free Ricks
+Rick of zygirion is in zygirion board at (775,925) with speed (5.0,15.0)
+Rick of c137 is in alpha-betrium board at (800,600) with speed (20.0,0.0)
+Rick of reverseheight is in reverseheight board at (210,890) with speed (-10.0,10.0)
+Rick of j19zeta is in j19zeta board at (200,620) with speed (0.0,12.5)
+Rick of alpha-betrium is in j19zeta board at (160,220) with speed (-40.0,20.0)
+---------------------------------------------------------------------------
+
+Time 63: Rick of alpha-betrium moved from j19zeta board to zygirion board
+	Past location: Rick of alpha-betrium is in j19zeta board at (0,300) with speed (-40.0,20.0)
+	Current location: Rick of alpha-betrium is in zygirion board at (600,400) with speed (-40.0,20.0)
+
+Time 64: Rick of zygirion moved from zygirion board to alpha-betrium board
+	Past location: Rick of zygirion is in zygirion board at (800,1000) with speed (5.0,15.0)
+	Current location: Rick of zygirion is in alpha-betrium board at (600,600) with speed (5.0,15.0)
+
+Time 69: Rick of c137 moved from alpha-betrium board to c137 board
+	Past location: Rick of c137 is in alpha-betrium board at (1000,600) with speed (20.0,0.0)
+	Current location: Rick of c137 is in c137 board at (500,500) with speed (20.0,0.0)
+
+---------------------------------------------------------------------------
+End of time 69: all free Ricks
+Rick of zygirion is in alpha-betrium board at (625,675) with speed (5.0,15.0)
+Rick of c137 is in c137 board at (500,500) with speed (20.0,0.0)
+Rick of reverseheight is in reverseheight board at (110,990) with speed (-10.0,10.0)
+Rick of j19zeta is in j19zeta board at (200,740) with speed (0.0,12.5)
+Rick of alpha-betrium is in zygirion board at (360,520) with speed (-40.0,20.0)
+---------------------------------------------------------------------------
+
+Time 70: Rick of reverseheight moved from reverseheight board to reverseheight board
+	Past location: Rick of reverseheight is in reverseheight board at (100,1000) with speed (-10.0,10.0)
+	Current location: Rick of reverseheight is in reverseheight board at (500,600) with speed (-10.0,10.0)
+
+Time 78: Rick of alpha-betrium moved from zygirion board to reverseheight board
+	Past location: Rick of alpha-betrium is in zygirion board at (0,700) with speed (-40.0,20.0)
+	Current location: Rick of alpha-betrium is in reverseheight board at (500,600) with speed (-40.0,20.0)
+
+---------------------------------------------------------------------------
+End of time 79: all free Ricks
+Rick of zygirion is in alpha-betrium board at (675,825) with speed (5.0,15.0)
+Rick of c137 is in c137 board at (700,500) with speed (20.0,0.0)
+Rick of reverseheight is in reverseheight board at (410,690) with speed (-10.0,10.0)
+Rick of j19zeta is in j19zeta board at (200,860) with speed (0.0,12.5)
+Rick of alpha-betrium is in reverseheight board at (460,620) with speed (-40.0,20.0)
+---------------------------------------------------------------------------
+
+---------------------------------------------------------------------------
+End of time 89: all free Ricks
+Rick of zygirion is in alpha-betrium board at (725,975) with speed (5.0,15.0)
+Rick of c137 is in c137 board at (900,500) with speed (20.0,0.0)
+Rick of reverseheight is in reverseheight board at (310,790) with speed (-10.0,10.0)
+Rick of j19zeta is in j19zeta board at (200,980) with speed (0.0,12.5)
+Rick of alpha-betrium is in reverseheight board at (60,820) with speed (-40.0,20.0)
+---------------------------------------------------------------------------
+
+Time 91: Rick of zygirion moved from alpha-betrium board to zygirion board
+	Past location: Rick of zygirion is in alpha-betrium board at (735,1005) with speed (5.0,15.0)
+	Current location: Rick of zygirion is in zygirion board at (600,400) with speed (5.0,15.0)
+
+Time 91: Rick of j19zeta moved from j19zeta board to alpha-betrium board
+	Past location: Rick of j19zeta is in j19zeta board at (200,1004) with speed (0.0,12.5)
+	Current location: Rick of j19zeta is in alpha-betrium board at (600,600) with speed (0.0,12.5)
+
+Time 91: Rick of alpha-betrium moved from reverseheight board to j19zeta board
+	Past location: Rick of alpha-betrium is in reverseheight board at (-20,860) with speed (-40.0,20.0)
+	Current location: Rick of alpha-betrium is in j19zeta board at (200,200) with speed (-40.0,20.0)
+
+Time 94: Rick of c137 moved from c137 board to alpha-betrium board
+	Past location: Rick of c137 is in c137 board at (1000,500) with speed (20.0,0.0)
+	Current location: Rick of c137 is in alpha-betrium board at (600,600) with speed (20.0,0.0)
+
+Time 96: Rick of alpha-betrium moved from j19zeta board to zygirion board
+	Past location: Rick of alpha-betrium is in j19zeta board at (0,300) with speed (-40.0,20.0)
+	Current location: Rick of alpha-betrium is in zygirion board at (600,400) with speed (-40.0,20.0)
+
+---------------------------------------------------------------------------
+End of time 99: all free Ricks
+Rick of zygirion is in zygirion board at (640,520) with speed (5.0,15.0)
+Rick of c137 is in alpha-betrium board at (700,600) with speed (20.0,0.0)
+Rick of reverseheight is in reverseheight board at (210,890) with speed (-10.0,10.0)
+Rick of j19zeta is in alpha-betrium board at (600,696) with speed (0.0,12.5)
+Rick of alpha-betrium is in zygirion board at (480,460) with speed (-40.0,20.0)
+---------------------------------------------------------------------------
+
+---------------------------------------------------------------------------
+Time 100: Simulation ended
+
+The following Ricks are still alive:
+	Rick of zygirion is in zygirion board at (645,535) with speed (5.0,15.0)
+	Rick of c137 is in alpha-betrium board at (720,600) with speed (20.0,0.0)
+	Rick of reverseheight is in reverseheight board at (200,900) with speed (-10.0,10.0)
+	Rick of j19zeta is in alpha-betrium board at (600,708) with speed (0.0,12.5)
+	Rick of alpha-betrium is in zygirion board at (440,480) with speed (-40.0,20.0)
+
+No Ricks were caught by Transdimensional Council of Ricks
+---------------------------------------------------------------------------

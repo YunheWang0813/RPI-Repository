@@ -1,0 +1,20 @@
+Arsenal 	38 	21 	7 	10 	74 	49
+Chelsea 	38 	18 	10 	10 	65 	46
+Stoke City 	38 	11 	12 	15 	36 	53
+Fulham 	38 	14 	10 	14 	48 	51
+Swansea City 	38 	12 	11 	15 	44 	51
+West Bromwich Albion 	38 	13 	8 	17 	45 	52
+Manchester United 	38 	28 	5 	5 	89 	33
+Wigan Athletic 	38 	11 	10 	17 	42 	62
+Queens Park Rangers 	38 	10 	7 	21 	43 	66
+Norwich City 	38 	12 	11 	15 	52 	66
+Everton 	38 	15 	11 	12 	50 	40
+Liverpool 	38 	14 	10 	14 	47 	40
+Manchester City (C) 	38 	28 	5 	5 	93 	29
+Tottenham Hotspur 	38 	20 	9 	9 	66 	41
+Bolton Wanderers (R) 	38 	10 	6 	22 	46 	77
+Wolverhampton Wanderers (R) 	38 	5 	10 	23 	40 	82
+Sunderland 	38 	11 	12 	15 	45 	46
+Aston Villa 	38 	7 	17 	14 	37 	53
+Newcastle United 	38 	19 	8 	11 	56 	51
+Blackburn Rovers (R) 	38 	8 	7 	23 	48 	78
